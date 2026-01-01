@@ -1,6 +1,8 @@
 # engine-mode-controller
 Embedded C/AUTOSAR portfolio: powertrain sim, BSW, functions practice.
-AUTOSAR:
+
+AUTOSAR: 60mins
+
 Application layer in AUTOSAR
 The application layer is the topmost layer in AUTOSAR architecture. It is designed to work for specific tasks and execute the software components involved in that task.
 For instance, dimming the light of the vehicle is something that the application layer handles.
@@ -39,13 +41,47 @@ What is a layered system architecture?
 A layered system architecture is the most common type of architecture used in software development or electronics equipment development.
 
 This is done to separate various components of the complete system according to their logic or working. A layered system architecture is made up of layers laid down horizontally one on top of another. Since these layers contain these components and separate them logically, the layered system architecture is often referred to as the “logical separation of the system.”
-
 Layered system architecture may look generally as follows (not necessarily relating to AUTOSAR):
-
-Diagram showing layered architecture
-Source
 Each layer in such a system holds a responsibility to perform. For instance, the presentation layer deals with a visual representation of components. So, all the components it holds are related to the same job.
-
 Here, in the above image, you can notice the closed rectangle for each layer. This is done to represent the isolation of features. When we isolate these components, the debugging, development and maintenance become easier.
-
 The layer may talk to the one above it (passing the data) or below it (receiving the data). There are no other connections between any other two layers, however.
+
+
+C : 60 mins
+Functions: Declaration and defination 
+
+int fun(int var1,char var2);
+
+int add(int a , int b);
+{
+int sum;
+sum =a+b;
+return sum;
+}
+
+int torque_calc(int rpm , int load)
+{
+return(rpm*load)/100;
+}
+int main()
+{
+int t=torque_calc(3000);
+}
+
+
+German A1: Dulingo 
+Numbers
+0-null
+1-eins
+2-zwei
+3-drei
+4-vier
+5-funf
+6-sechs
+7-sieben
+
+words
+orangen-oranges
+kostet-costs
+wirklich-reallly
+wie vie-how much
